@@ -1,9 +1,12 @@
 /* custome css for theprathmesh.in laminates website developed by www.iush.in */
+
+/* rotate text */
 .rotate {transition: transform .7s ease-in-out;}
 .rotate:hover {transform: rotate(360deg);}
-/* animated text */
 
-.animate span {
+
+/* animated text */
+.ani {
   color: transparent;
   background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
   -webkit-background-clip: text;
