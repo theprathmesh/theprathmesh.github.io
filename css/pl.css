@@ -1,6 +1,30 @@
-.rotate {
-  transition: transform .7s ease-in-out;
+/* custome css for theprathmesh.in laminates website developed by www.iush.in */
+.rotate {transition: transform .7s ease-in-out;}
+.rotate:hover {transform: rotate(360deg);}
+/* animated text */
+.animate {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
-.rotate:hover {
-  transform: rotate(360deg);
+.animate h1 {
+  position: absolute;
+  width: 90%;
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+  -webkit-background-clip: text;
+  background-clip: text;    
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 2s infinite alternate-reverse;      
+}
+@keyframes animated-gradient{
+  to{
+    background-position: 200%;
+  }
 }
