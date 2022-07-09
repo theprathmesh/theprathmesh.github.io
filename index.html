@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="masthead-subheading">The Laminate Gallery</div>
                 <div class="masthead-heading text-uppercase">Prathmesh Laminate's</div>
-                <span class="typewrite" data-period="3000" data-type='[ "Laminates", "Veneers", "Kichen Trollys", "Highliters" ,"Wallpapers","Luvers","Wooden Floorings"]'></span>
+                <span  class="h3" id="typewrite" data-period="3000" data-type='[ "Laminates", "Veneers", "Kichen Trollys", "Highliters" ,"Wallpapers","Luvers","Wooden Floorings"]'></span>
 </div>
         </header>
         <!-- Services-->
@@ -621,7 +621,7 @@ var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
+        this.period = parseInt(period, 10) || 3000;
         this.txt = '';
         this.tick();
         this.isDeleting = false;
