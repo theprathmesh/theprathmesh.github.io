@@ -624,8 +624,17 @@ Copyright &copy; www.theprathmesh.in 2003-<span id="year"></span></div>
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                                                                       
 <script>
 document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+                              <script>
+(function($){
+        "use strict";
+			$('#whatsAppAnyForm').appPlugin(
+				{whatsappPhone: '+919664933654', // Your Whatsapp Number, on which you want to send message.
+                    submissionMessage: 'You have been redirected to the WhatsApp to submit the message. Thank you.' // form submission message });
+})(jQuery);
 </script>
     </body>
 </html>
