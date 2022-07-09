@@ -340,7 +340,7 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="whatsAppAnyForm" action="" method="POST" data-title="Contact Form" novalidate="">
+                <form id="contactForm" action="" method="POST" data-title="Contact Form" novalidate="">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -626,16 +626,16 @@ Copyright &copy; www.theprathmesh.in 2003-<span id="year"></span></div>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
                                                                        
 
-								       <script>
+<script>
 document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
-			      <script>
-(function($){
-        "use strict";
-			$('#whatsAppAnyForm').appPlugin(
-				{whatsappPhone: '+919664933654', // Your Whatsapp Number, on which you want to send message.
-                    submissionMessage: 'You have been redirected to the WhatsApp to submit the message. Thank you.' // form submission message });
-})(jQuery);
+<script>
+(function($) {
+		"use strict";
+		$('#contactForm').appPlugin({
+			whatsappPhone: '+919664933654', // Your Whatsapp Number, on which you want to send message.
+			submissionMessage: 'You have been redirected to the WhatsApp to submit the message. Thank you.' // form submission message });
+		})(jQuery);
 </script>
     </body>
 </html>
