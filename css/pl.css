@@ -1,54 +1,9 @@
-/* custome css for theprathmesh.in laminates website developed by www.iush.in */
-
-/* rotate text */
-.rotate {transition: transform .7s ease-in-out;}
-.rotate:hover {transform: rotate(360deg);}
-
-
-/* animated text */
-.ani {
-  color: transparent;
-  background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
-  -webkit-background-clip: text;
-  background-clip: text;    
-  background-size: 200%;
-  background-position: -200%;
-  animation: animated-gradient 2s infinite alternate-reverse;}
-@keyframes animated-gradient{to{background-position: 200%;}}
-/*Transparent heading */
-/*/////////MAGIC//HERE////////*/
-.black {
-  background: black;
-  color: white;
-  mix-blend-mode: multiply;
-}
- .white {
-  background: white;
-  color: black;
-  mix-blend-mode: screen;
-}
-/*////////////////////////////*/
-.heading {
-  font-family: sans-serif;
-  font-size: 80px;
-  width: 500px;
-  height: 120px;
-  line-height: 120px;
-  vertical-align: center;
-  text-align: center;
-  margin: 30px;
-}
-/*
-.shadowforheader{ 
-	color: #333;
-	background-color: #666;
-	text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
-}*/
 .shadowforheader{ 
 background: #3AB0FF;
 background: -webkit-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
 background: -moz-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
 background: linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;}
+-webkit-text-fill-color: transparent;
+}
 
