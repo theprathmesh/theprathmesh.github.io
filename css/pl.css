@@ -1,9 +1,10 @@
 .shadowforheader{ 
-background: #3AB0FF;
-background: -webkit-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
-background: -moz-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
-background: linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
+background: #4285F4;
+background: -webkit-linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34A853 100%);
+background: -moz-linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34A853 100%);
+background: linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34A853 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+
 }
 
