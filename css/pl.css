@@ -38,9 +38,17 @@
   text-align: center;
   margin: 30px;
 }
-/* custome css for header title */
+/*
 .shadowforheader{ 
 	color: #333;
 	background-color: #666;
 	text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
-}
+}*/
+.shadowforheader{ 
+background: #3AB0FF;
+background: -webkit-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
+background: -moz-linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
+background: linear-gradient(to left, #3AB0FF 28%, #FFB562 50%, #F87474 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
