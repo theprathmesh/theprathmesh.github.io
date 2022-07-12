@@ -11,3 +11,26 @@ background: linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34
   background-color: rgb(15,71,89);
   mix-blend-mode: multiply;
 }
+.engraved {
+    font-size: ;
+    font-family: Futura;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+ }
+
+.embossed{
+  color: #f0f0f0;
+  font-size: ;
+  font-family: Futura;
+  background-color: #666666;
+  text-shadow: 1px 4px 4px #555;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+}
+.headlogo {color: #4e4e4e;font-family: Fantasy;background: lightgrey;}
