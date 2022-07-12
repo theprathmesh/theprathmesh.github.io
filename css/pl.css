@@ -6,7 +6,7 @@ background: linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.shadowforheader{ 
+.shadowforheader2{ 
  color: rgb(255,255,255);
   background-color: rgb(15,71,89);
   mix-blend-mode: multiply;
