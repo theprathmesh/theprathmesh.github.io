@@ -33,4 +33,6 @@ background: linear-gradient(to right, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34
     -moz-background-clip: text;
 
 }
-.headlogo {color: #4e4e4e;font-family: Fantasy;background: lightgrey;line-height: normal;text-align:center;}
+.H1PL {
+
+text-shadow: -2px -2px 0 #FFF,-2px -1px 0 #FFF,-2px 0px 0 #FFF,-2px 1px 0 #FFF,-2px 2px 0 #FFF,-1px -2px 0 #FFF,-1px -1px 0 #FFF,-1px 0px 0 #FFF,-1px 1px 0 #FFF,-1px 2px 0 #FFF,0px -2px 0 #FFF,0px -1px 0 #FFF,0px 0px 0 #FFF,0px 1px 0 #FFF,0px 2px 0 #FFF,1px -2px 0 #FFF,1px -1px 0 #FFF,1px 0px 0 #FFF,1px 1px 0 #FFF,1px 2px 0 #FFF,2px -2px 0 #FFF,2px -1px 0 #FFF,2px 0px 0 #FFF,2px 1px 0 #FFF,2px 2px 0 #FFF;}
